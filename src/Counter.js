@@ -5,10 +5,10 @@ function Counter() {
   const [count, setCount] = useState(0);
 
   const increment = () => {
-    setCount((prev) => prev + 1);
+    setCount(count + 1);
   };
   const decrement = () => {
-    setCount((prev) => prev - 1);
+    setCount(count - 1);
   };
 
   return (
